@@ -1,0 +1,24 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:Template name="TopBar" src="project://database/Assets/UI/UXML/TopBar.uxml?fileID=9197481963319205126&amp;guid=1f725580e7f3c41939def9bbb26345f9&amp;type=3#TopBar" />
+    <Style src="project://database/Assets/UI/StyleSheets/BrandDetailView.uss?fileID=7433441132597879392&amp;guid=3cde4a6c04a1041eba73a0dd1edaf339&amp;type=3#BrandDetailView" />
+    <ui:Instance template="TopBar" name="TopBar" />
+    <ui:VisualElement name="ContentHolder" style="flex-grow: 1; background-color: rgba(236, 222, 188, 255);">
+        <ui:GroupBox name="ImageHolder" style="border-bottom-width: 3px; border-bottom-color: rgb(140, 135, 123); margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0; height: 40%;">
+            <ui:IMGUIContainer style="flex-direction: row; flex-grow: 1; max-height: none; min-height: auto; background-image: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2346436936791262179&amp;guid=dc025759b06cf48129908526db318dcc&amp;type=3#console.infoicon&apos;); border-left-width: 0; border-right-width: 0; border-top-width: 0; border-bottom-width: 0; border-top-left-radius: 0; border-bottom-left-radius: 0; border-top-right-radius: 0; border-bottom-right-radius: 0; border-left-color: rgba(0, 0, 0, 0.47); border-right-color: rgba(0, 0, 0, 0.47); border-top-color: rgba(0, 0, 0, 0.47); border-bottom-color: rgba(0, 0, 0, 0.47); height: auto; margin-left: 0; margin-right: 0; margin-top: 0; margin-bottom: 0;" />
+        </ui:GroupBox>
+        <ui:GroupBox name="TextHolder" style="border-top-width: 0; border-left-color: rgb(0, 0, 0); border-right-color: rgb(0, 0, 0); border-top-color: rgb(0, 0, 0); border-bottom-color: rgb(0, 0, 0); flex-grow: 1; align-items: stretch;">
+            <ui:GroupBox name="TextAndNumberHolder" class="DetailViewItem" style="flex-direction: row; justify-content: space-between;">
+                <ui:Label text="Cost" display-tooltip-when-elided="true" name="Text" class="DetailViewLabel" />
+                <ui:Label text="500" display-tooltip-when-elided="true" name="Number" class="DetailViewLabel" style="height: auto;" />
+            </ui:GroupBox>
+            <ui:GroupBox name="TextAndNumberHolder" class="DetailViewItem" style="flex-direction: row; justify-content: space-between;">
+                <ui:Label text="Cost" display-tooltip-when-elided="true" name="Text" class="DetailViewLabel" />
+                <ui:Label text="500" display-tooltip-when-elided="true" name="Number" class="DetailViewLabel" />
+            </ui:GroupBox>
+            <ui:GroupBox name="TextAndNumberHolder" class="DetailViewItem" style="flex-direction: row; justify-content: space-between;">
+                <ui:Label text="Cost" display-tooltip-when-elided="true" name="Text" class="DetailViewLabel" />
+                <ui:Label text="500" display-tooltip-when-elided="true" name="Number" class="DetailViewLabel" />
+            </ui:GroupBox>
+        </ui:GroupBox>
+    </ui:VisualElement>
+</ui:UXML>

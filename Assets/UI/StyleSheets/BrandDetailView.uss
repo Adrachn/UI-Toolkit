@@ -1,0 +1,22 @@
+VisualElement {
+}
+
+.DetailViewItem {
+    font-size: 28px;
+    -unity-font: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=dc025759b06cf48129908526db318dcc&type=3#NotInter-Regular');
+    flex-grow: 0;
+    align-items: flex-start;
+    flex-direction: row;
+    justify-content: flex-start;
+    height: 15%;
+}
+
+.DetailViewLabel {
+    flex-grow: 0;
+    flex-shrink: 1;
+    justify-content: flex-start;
+    font-size: 28px;
+    height: auto;
+    align-items: stretch;
+    -unity-font: url('project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=2230732570650464555&guid=dc025759b06cf48129908526db318dcc&type=3#NotInter-Regular');
+}

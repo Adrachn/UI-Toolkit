@@ -1,0 +1,13 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../../../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <ui:VisualElement name="TopBarVisualElement" style="flex-direction: column; align-items: flex-start; flex-wrap: nowrap; background-color: rgba(154, 150, 140, 255); flex-basis: auto; flex-shrink: 0; flex-grow: 0;">
+        <ui:VisualElement style="flex-direction: row; flex-grow: 1; justify-content: flex-start; flex-shrink: 1; align-items: flex-start; flex-basis: auto;">
+            <ui:Button display-tooltip-when-elided="true" name="HamburgerIcon" style="background-image: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-1304905567622442630&amp;guid=dc025759b06cf48129908526db318dcc&amp;type=3#arrow-down@2x&apos;);" />
+            <ui:IMGUIContainer name="CataconImage" style="background-image: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=4584671053970592468&amp;guid=dc025759b06cf48129908526db318dcc&amp;type=3#console.warnicon&apos;); align-items: flex-start; width: 120px; flex-grow: 0; flex-shrink: 0; height: 100%; left: 50%;" />
+            <ui:IMGUIContainer name="SearchIcon" style="background-image: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=8228938214290033325&amp;guid=dc025759b06cf48129908526db318dcc&amp;type=3#console.erroricon&apos;); align-items: flex-start; flex-shrink: 0; width: 20%; height: 100%; left: 50%;" />
+            <ui:Button text="Login" display-tooltip-when-elided="true" name="LoginButton" style="align-items: flex-start; left: 60%; right: auto;" />
+        </ui:VisualElement>
+        <ui:VisualElement>
+            <ui:TextField picking-mode="Ignore" label="Text Field" value="filler text" text="filler text" name="SearchBar" style="background-image: url(&apos;project://database/Assets/UI%20Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss?fileID=-1304905567622442630&amp;guid=dc025759b06cf48129908526db318dcc&amp;type=3#arrow-down@2x&apos;);" />
+        </ui:VisualElement>
+    </ui:VisualElement>
+</ui:UXML>

@@ -1,0 +1,389 @@
+Unity Editor version:    2021.2.0b8 (3fad0faf7e71)
+Branch:                  2021.2/staging
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 11.4 (Build 20F71)
+Darwin version:          20.5.0
+Architecture:            x86_64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: NO
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.2.0b8/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/lina/Projects/UI Toolkit Test
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+51737
+Successfully changed project path to: /Users/lina/Projects/UI Toolkit Test
+/Users/lina/Projects/UI Toolkit Test
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 61.09 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.2.0b8 (3fad0faf7e71)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.2.0b8/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/lina/Projects/UI Toolkit Test/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Color LCD preferred device: AMD Radeon Pro 450 (high power)
+Metal devices available: 2
+0: AMD Radeon Pro 450 (high power)
+1: Intel(R) HD Graphics 530 (low power)
+Using device AMD Radeon Pro 450 (high power)
+Initializing Metal device caps: AMD Radeon Pro 450
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.2.0b8/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.2.0b8/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.2.0b8/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56511
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.2.0b8/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.2.0b8/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll
+Registered in 0.005990 seconds.
+Native extension for Lumin target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 57.26 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  3.973 seconds
+Domain Reload Profiling:
+	ReloadAssembly (4033ms)
+		BeginReloadAssembly (188ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (1372ms)
+			LoadAssemblies (193ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (579ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (44ms)
+			SetupLoadedEditorAssemblies (583ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (57ms)
+				BeforeProcessingInitializeOnLoad (2ms)
+				ProcessInitializeOnLoadAttributes (378ms)
+				ProcessInitializeOnLoadMethodAttributes (135ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008445 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for Lumin target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 71.71 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[com.unity.burst] Burst is disabled entirely, either from the command line or because this is not the main Unity process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/bokken/buildslave/unity/build/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogWarning (object)
+Unity.Burst.Editor.BurstLoader:.cctor () (at Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs:107)
+System.Runtime.CompilerServices.RuntimeHelpers:RunClassConstructor (System.RuntimeTypeHandle)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadAttributes (System.Type[]) (at /Users/bokken/buildslave/unity/build/Editor/Mono/EditorAssemblies.cs:126)
+
+(Filename: Library/PackageCache/com.unity.burst@1.6.0-pre.2/Editor/BurstLoader.cs Line: 107)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  3.040 seconds
+Domain Reload Profiling:
+	ReloadAssembly (3138ms)
+		BeginReloadAssembly (504ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (12ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (69ms)
+		EndReloadAssembly (2435ms)
+			LoadAssemblies (220ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (890ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (84ms)
+			SetupLoadedEditorAssemblies (938ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (15ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (112ms)
+				ProcessInitializeOnLoadAttributes (677ms)
+				ProcessInitializeOnLoadMethodAttributes (59ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (8ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.2.0b8/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.03 seconds
+Refreshing native plugins compatible for Editor in 0.57 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2191 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 33 unused Assets / (43.0 KB). Loaded Objects now: 2654.
+Memory consumption went from 211.8 MB to 211.7 MB.
+Total: 4.988221 ms (FindLiveObjects: 0.233986 ms CreateObjectMapping: 0.125125 ms MarkObjects: 4.523035 ms  DeleteObjects: 0.104600 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 8260.722522 seconds.
+  path: Assets/UI
+  artifactKey: Guid(50f2ba597a66f4b5ebe133bd2a46c9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI using Guid(50f2ba597a66f4b5ebe133bd2a46c9b3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '612e64d8ecd720d06228741bf3779163') in 0.007092 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.836424 seconds.
+  path: Assets/UI/UXML
+  artifactKey: Guid(72c20d92903d24f58811c8e5574c37b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML using Guid(72c20d92903d24f58811c8e5574c37b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42c881074206bdf98113205ab90aadee') in 0.006193 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 7.687643 seconds.
+  path: Assets/UI/Panel Settings
+  artifactKey: Guid(78dfc217d3b664139818c3ebdfe707d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Panel Settings using Guid(78dfc217d3b664139818c3ebdfe707d6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e465394f864ed704b40a35d85ad5aaca') in 0.002590 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.171217 seconds.
+  path: Assets/UI/Panel Settings/Test Panel Setting.asset
+  artifactKey: Guid(001056529ba7242239bd62f5e967a745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/Panel Settings/Test Panel Setting.asset using Guid(001056529ba7242239bd62f5e967a745) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0c95ff4b7e7140df85ff72507b4cad0a') in 1.422123 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 32.689519 seconds.
+  path: Assets/UI/UXML/DetailView.uxml
+  artifactKey: Guid(6586988d3f4fd4babade5c822a0d2bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/DetailView.uxml using Guid(6586988d3f4fd4babade5c822a0d2bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1554966479d67e707e078ef5a32fc21b') in 0.552110 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 2.141747 seconds.
+  path: Assets/UI/StyleSheets
+  artifactKey: Guid(7c34cfa8c9aab4347afa58c933eed0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/StyleSheets using Guid(7c34cfa8c9aab4347afa58c933eed0f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7974c3e325564a31c4653442c167a535') in 0.002985 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 12.190420 seconds.
+  path: Assets/UI/StyleSheets/DetailView.uss
+  artifactKey: Guid(f7bfac5dcd8f34a14aa9c769bc01b0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/StyleSheets/DetailView.uss using Guid(f7bfac5dcd8f34a14aa9c769bc01b0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7347d316bb4a80599b9ef35b71482ac0') in 0.253081 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3099.701653 seconds.
+  path: Assets/UI/UXML/DetailView.uxml
+  artifactKey: Guid(6586988d3f4fd4babade5c822a0d2bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/DetailView.uxml using Guid(6586988d3f4fd4babade5c822a0d2bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5443f83b32e91a0b3a122d6459bf3375') in 0.006291 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.671769 seconds.
+  path: Assets/UI/StyleSheets/DetailViewButton.uss
+  artifactKey: Guid(6c9a582d5a11b40ed9e3d6ae1d87977d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/StyleSheets/DetailViewButton.uss using Guid(6c9a582d5a11b40ed9e3d6ae1d87977d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e128173328a956bfe38161d89a1a0006') in 0.003441 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 17.978140 seconds.
+  path: Assets/UI/UXML/DetailView.uxml
+  artifactKey: Guid(6586988d3f4fd4babade5c822a0d2bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/DetailView.uxml using Guid(6586988d3f4fd4babade5c822a0d2bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f553482d9b3b09ca5aa34db2fc95f140') in 0.004068 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 867.012905 seconds.
+  path: Assets/UI/UXML/DetailView.uxml
+  artifactKey: Guid(6586988d3f4fd4babade5c822a0d2bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/DetailView.uxml using Guid(6586988d3f4fd4babade5c822a0d2bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c76cd0f68e61e87b58cc46536ef8dadc') in 0.008084 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 20.263331 seconds.
+  path: Assets/UI/UXML/DetailViewButton.uxml
+  artifactKey: Guid(763b015645c8841f4bd8d7c970be7090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/DetailViewButton.uxml using Guid(763b015645c8841f4bd8d7c970be7090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ae29259fb7268281a0aac39e91f36ebb') in 0.010710 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 152.465261 seconds.
+  path: Assets/UI/UXML/DetailViewButton.uxml
+  artifactKey: Guid(763b015645c8841f4bd8d7c970be7090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/DetailViewButton.uxml using Guid(763b015645c8841f4bd8d7c970be7090) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1b6ed033800d7f47a92b8a2293a35920') in 0.009149 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.008706 seconds.
+  path: Assets/UI/UXML/BrandListView.uxml
+  artifactKey: Guid(6586988d3f4fd4babade5c822a0d2bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/BrandListView.uxml using Guid(6586988d3f4fd4babade5c822a0d2bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'adcc172e136364f1703d333f53cc5aa5') in 0.009397 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 28.972659 seconds.
+  path: Assets/UI/UXML/BrandDetailView.uxml
+  artifactKey: Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/BrandDetailView.uxml using Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff5e586d2ba7723e89b5c6672b0ed317') in 0.009931 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 34.450190 seconds.
+  path: Assets/UI/UXML/BrandStartView.uxml
+  artifactKey: Guid(8c74eafe5a67f4bb88b53d211d2847c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/BrandStartView.uxml using Guid(8c74eafe5a67f4bb88b53d211d2847c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ee053daf71037cfd9513d5583ef4d21') in 0.009926 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 158.361494 seconds.
+  path: Assets/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss
+  artifactKey: Guid(dc025759b06cf48129908526db318dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI Toolkit/UnityThemes/UnityDefaultRuntimeTheme.tss using Guid(dc025759b06cf48129908526db318dcc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d30c6d5d92df04ae8afa691c0fccaaa') in 1.053252 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 110.201576 seconds.
+  path: Assets/UI/StyleSheets/DetailView.uss
+  artifactKey: Guid(f7bfac5dcd8f34a14aa9c769bc01b0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/StyleSheets/DetailView.uss using Guid(f7bfac5dcd8f34a14aa9c769bc01b0b9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c74f648d3c77d2644abc3e8c2ca3cb93') in 0.008738 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 13.370712 seconds.
+  path: Assets/UI/StyleSheets/BrandDetailView.uss
+  artifactKey: Guid(3cde4a6c04a1041eba73a0dd1edaf339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/StyleSheets/BrandDetailView.uss using Guid(3cde4a6c04a1041eba73a0dd1edaf339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e47d737fb94f4e41baa778a8e916332b') in 0.008754 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 927.263679 seconds.
+  path: Assets/UI/StyleSheets/BrandDetailView.uss
+  artifactKey: Guid(3cde4a6c04a1041eba73a0dd1edaf339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/StyleSheets/BrandDetailView.uss using Guid(3cde4a6c04a1041eba73a0dd1edaf339) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b88532016fd6ddcd4e63461a33b11236') in 0.008195 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 218.924779 seconds.
+  path: Assets/UI/UXML/BrandDetailView.uxml
+  artifactKey: Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/BrandDetailView.uxml using Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03203c4ad152846b79af6520a63ef410') in 0.012222 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 371.790646 seconds.
+  path: Assets/UI/UXML/BrandDetailView.uxml
+  artifactKey: Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/BrandDetailView.uxml using Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26d2f16e71502e1c23d508eea1a65cf8') in 0.017458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 10.385881 seconds.
+  path: Assets/UI/UXML/BrandDetailView.uxml
+  artifactKey: Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/BrandDetailView.uxml using Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '986e816cc75e5dc5d026f2038ffa62fc') in 0.011279 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 262.214171 seconds.
+  path: Assets/UI/UXML/BrandDetailView.uxml
+  artifactKey: Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/BrandDetailView.uxml using Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d3139af264788496124e56f62ae741a') in 0.011579 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 127.511797 seconds.
+  path: Assets/UI/UXML/BrandDetailView.uxml
+  artifactKey: Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/BrandDetailView.uxml using Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '055c578460dc833d0de8ac762fcf8e29') in 0.016488 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 252.322858 seconds.
+  path: Assets/UI/UXML/BrandDetailView.uxml
+  artifactKey: Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/BrandDetailView.uxml using Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e312b6158879b515e3128ae26b722f4') in 0.014478 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 740.108936 seconds.
+  path: Assets/UI/UXML/BrandDetailView.uxml
+  artifactKey: Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/BrandDetailView.uxml using Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93525ea35eaa981295d7b21591d10253') in 0.011913 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.262164 seconds.
+  path: Assets/UI/UXML/BrandDetailView.uxml
+  artifactKey: Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/BrandDetailView.uxml using Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd130c8b0aab578bb0ebe2a62345c8b6a') in 0.010953 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 46.205019 seconds.
+  path: Assets/UI/UXML/BrandDetailView.uxml
+  artifactKey: Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/BrandDetailView.uxml using Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1059c470edab31d8ce7ca4a1bb771bb8') in 0.012260 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 252.720820 seconds.
+  path: Assets/UI/UXML/BrandDetailView.uxml
+  artifactKey: Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/BrandDetailView.uxml using Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfdd69e58ab7b2d14f3b65678aa9dd18') in 0.011205 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 26.629403 seconds.
+  path: Assets/UI/UXML/BrandDetailView.uxml
+  artifactKey: Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/BrandDetailView.uxml using Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8abddc37b63e0b7e98ea6cf2728d30dc') in 0.009303 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 479.535583 seconds.
+  path: Assets/UI/UXML/TopBar.uxml
+  artifactKey: Guid(1f725580e7f3c41939def9bbb26345f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/TopBar.uxml using Guid(1f725580e7f3c41939def9bbb26345f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd248436ec9f3bbd360349b585fc557f6') in 0.009974 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 21.670574 seconds.
+  path: Assets/UI/UXML/BrandListView.uxml
+  artifactKey: Guid(6586988d3f4fd4babade5c822a0d2bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/BrandListView.uxml using Guid(6586988d3f4fd4babade5c822a0d2bd6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3db3a266733a3a1204e2f3e8412ca927') in 0.010077 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1698.463365 seconds.
+  path: Assets/UI/UXML/TopBar.uxml
+  artifactKey: Guid(1f725580e7f3c41939def9bbb26345f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/TopBar.uxml using Guid(1f725580e7f3c41939def9bbb26345f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b631879946f6db8509fe199b4f7e03c1') in 0.010459 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 100.285582 seconds.
+  path: Assets/UI/UXML/BrandDetailView.uxml
+  artifactKey: Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/UI/UXML/BrandDetailView.uxml using Guid(33611ad65353b42938b241ea03147d5d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5b66c86ce854b8b6aa97ff4842ff2968') in 0.014803 seconds 
